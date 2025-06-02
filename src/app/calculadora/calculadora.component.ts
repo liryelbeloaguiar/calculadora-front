@@ -14,13 +14,10 @@ export class CalculadoraComponent {
   num1: number = 0;
   num2: number = 0;
   resultadoSoma: number = 0;
-  resultadoResto: number = 0;
+  resultadoSubtracao: number = 0;
 
-  somar() {
+  calcular() {
     this.resultadoSoma = this.num1 + this.num2;
-  }
-
-  restar() {
-    this.resultadoResto = this.num1 - this.num2;
+    this.resultadoSubtracao = this.num1 - this.num2;
   }
 }
